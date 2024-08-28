@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BrainAColada</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BrainAColada</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brain-A-Colada.Builtin\Brain-A-Colada.Builtin.csproj" />
+    <ProjectReference Include="..\Brain-A-Colada.Interfaces\Brain-A-Colada.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
