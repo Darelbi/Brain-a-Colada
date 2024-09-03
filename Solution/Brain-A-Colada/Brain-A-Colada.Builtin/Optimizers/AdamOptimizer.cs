@@ -2,7 +2,7 @@
     Author: Dario Oliveri ( https://github.com/Darelbi )
     Copyright (c) 2024 Dario Oliveri
     License: MIT (see LICENSE file in repository root for more detail)
-    Original Project: https://github.com/Darelbi/BrainAColada/ */
+    Original Project: https://github.com/Darelbi/Brain-a-Colada */
 using BrainAColada.Interfaces;
 using BrainAColada.Interfaces.Enums;
 using BrainAColada.Interfaces.Layers;
@@ -85,7 +85,7 @@ namespace BrainAColada.BuiltIn.Optimizers
         }
     }
          
-             Original Project: https://github.com/Darelbi/BrainAColada/ */
+             Original Project: https://github.com/Darelbi/Brain-a-Colada */
 
         /// <summary>
         /// https://cs231n.github.io/neural-networks-3/
@@ -117,7 +117,7 @@ namespace BrainAColada.BuiltIn.Optimizers
 
         //    w += BaseType::alpha * mW / sqrt(sW + eps);
 
-        //    return lossLinkGrad;    Original Project: https://github.com/Darelbi/BrainAColada/ */
+        //    return lossLinkGrad;    Original Project: https://github.com/Darelbi/Brain-a-Colada */
         //}
 
 

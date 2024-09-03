@@ -2,7 +2,7 @@
     Author: Dario Oliveri ( https://github.com/Darelbi )
     Copyright (c) 2024 Dario Oliveri
     License: MIT (see LICENSE file in repository root for more detail)
-    Original Project: https://github.com/Darelbi/BrainAColada/ */
+    Original Project: https://github.com/Darelbi/Brain-a-Colada */
 using BrainAColada.Interfaces;
 using BrainAColada.Interfaces.Layers;
 using System.Numerics;
@@ -45,7 +45,7 @@ namespace BrainAColada.BuiltIn.Optimizers
                         layers[l].Weights[i][z] -= scaleFactor * layers[l].Weights[i][z] * layers[l].TotalGradients[i];
                     }
              
-                 Original Project: https://github.com/Darelbi/BrainAColada/ */
+                 Original Project: https://github.com/Darelbi/Brain-a-Colada */
         }
     }
 }
